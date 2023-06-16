@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void onSensorChanged(SensorEvent sensorEvent) {
         Log.d("Sensor", "x"+sensorEvent.values[0]+";"+
         "y"+sensorEvent.values[1]+";"+
-        "z"+sensorEvent.values[2]+"");
+        "z"+sensorEvent.values[2]+";");
     }
 
     @Override
